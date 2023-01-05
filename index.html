@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./src/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <title>Matias Ruiz Portfolio</title>
+</head>
+<body>
+
+    <section class="main-section">
+        <header>
+
+            <div class="hidden-menu" id="hidden-btn"><i class="fa-solid fa-bars"></i></div>
+
+            <div class="nav-image">
+                <img class="header-image" src="./src/profile.png" alt="Matias Ruiz">
+            </div>
+            <h1 class="header-title">Matias Ruiz
+                <i class="fa-solid fa-code"></i>
+            </h1>
+            <h2 class="header-subtitle">Portfolio</h2>
+            <nav>
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-btn active"><a href="#about"><i class="fa-regular fa-address-card"></i>About</a></li>
+                    <li class="nav-btn"><a  href="#skills"><i class="fa-solid fa-terminal"></i>Skills</a></li>
+                    <li class="nav-btn"><a href="#contact"><i class="fa-regular fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contact-logos">
+                <a href="https://wa.me/5492615584209?=Send%20me%20a%20message"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/Matiztf"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </header>
+
+        <!-- #region -->
+
+        <main class="content">
+
+            <div class="background-image"></div>
+
+            <div class="content-tab " id="about">
+
+
+                <h1>Hi! Im Matias.</h1>
+                <p><i class="fa-solid fa-chevron-right"></i>I am a 22 years old software development student, mainly focused on the web development area. Im currently looking for an opportunity that could help adquire my first professional experience in this field. I am living in Argentina-Mendoza, but im open to work on a remote position. </p>
+                <p><i class="fa-solid fa-chevron-right"></i>Fluent in English and Spanish, Im capable of working and communicating on both languages efficiently.</p>
+                <p><i class="fa-solid fa-chevron-right"></i>Wide experience working with clients and teams at non tech related jobs.</p>
+                <div class="dowload-btn">
+                    <a href="./src/resume.pdf" download="Resume Matias Ruiz">Dowload resume.</a>
+                </div>
+
+            </div>
+            <div class="content-tab active-tab" id="skills">
+                <h1>Front end skills</h1>
+                <div>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i>Html</li>
+                        <li><i class="fa-brands fa-css3-alt"></i>Css</li>
+                        <li><i class="fa-brands fa-square-js"></i>Javascript</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-brands fa-sass"></i>Sass</li>
+                        <li><i class="fa-brands fa-bootstrap"></i>Bootsrap</li>
+                        <li><i class="fa-brands fa-react"></i>React</li>
+                        <li><i class="fa-solid fa-network-wired"></i>Api handling</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="content-tab" id="contact"> contact section </div>
+        </main>
+    </section>
+    
+</body>
+    <script src="./scripts/scripts.js"></script>
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/9af5f5be2f.js" crossorigin="anonymous"></script>
+</html>
